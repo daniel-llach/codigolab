@@ -20,6 +20,6 @@ void draw(){
   {
     result = result + binary(letters, 8) + "\n";
   }
-
-  text(result, displayWidth/2 - 150, displayHeight/5);
+  textAlign(CENTER, CENTER);
+  text(result, displayWidth/2, displayHeight/2);
 }
